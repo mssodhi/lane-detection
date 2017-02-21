@@ -1,5 +1,7 @@
 import numpy as np
 import cv2
+import RPi.GPIO as GPIO
+import time
 
 cap = cv2.VideoCapture('CVFootage.mp4')
 #cap = cv2.VideoCapture('lanes2.mp4')
